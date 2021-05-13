@@ -1,6 +1,6 @@
-let testBtn = document.getElementById("test");
-testBtn.addEventListener("click", testar);
-async function testar(){
+let saveBtn = document.getElementById("test");
+saveBtn.addEventListener("click", saveData);
+async function saveData(){
     let newUser = {
         username: document.getElementById("usernameS").value,  
         password: document.getElementById("passwordS").value,
